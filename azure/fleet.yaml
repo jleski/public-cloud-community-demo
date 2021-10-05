@@ -9,6 +9,6 @@ targetCustomizations:
       ingress: true
       vote_address: vote.apps-azure.jles.work.com
       results_address: results.apps-azure.jles.work.com
-    clusterSelector:
-      matchLabels:
-        management.cattle.io/cluster-name: c-9dj55
+  clusterSelector:
+    matchLabels:
+      management.cattle.io/cluster-name: c-9dj55
