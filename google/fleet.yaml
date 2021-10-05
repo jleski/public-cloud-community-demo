@@ -1,0 +1,11 @@
+namespace: voting-app
+helm:
+  chart: https://github.com/jleski/helm-charts/releases/download/votingApp-0.4.0/votingApp-0.4.0.tgz
+targetCustomizations:
+- name: google
+  helm:
+    values:
+      # Ingress and external hostname (FQDN) to use
+      ingress: true
+      vote_address: vote.apps-google.jles.work.com
+      results_address: results.apps-google.jles.work.com
