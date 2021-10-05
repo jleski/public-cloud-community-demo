@@ -7,8 +7,8 @@ targetCustomizations:
     values:
       # Ingress and external hostname (FQDN) to use
       ingress: true
-      vote_address: vote.apps-azure.jles.work.com
-      results_address: results.apps-azure.jles.work.com
+      vote_address: vote.apps-azure.jles.work
+      results_address: results.apps-azure.jles.work
   clusterSelector:
     matchLabels:
       management.cattle.io/cluster-name: c-9dj55
